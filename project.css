@@ -1,0 +1,67 @@
+ body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* Top Menu */
+        .header {
+            background: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .logo small {
+            display: block;
+            font-size: 12px;
+            color: gray;
+        }
+
+        .menu a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+
+        .btn {
+            padding: 8px 15px;
+            border: 1px solid black;
+            background: white;
+        }
+
+        /* Banner */
+        .banner {
+            height: 80vh;
+            background-image:
+            linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+            url("https://images.unsplash.com/photo-1503387762-592deb58ef4e");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding-top: 200px;
+        }
+
+        .banner h1 {
+            font-size: 45px;
+            letter-spacing: 3px;
+        }
+
+        .banner p {
+            font-size: 14px;
+            margin: 20px;
+        }
+
+        .banner button {
+            padding: 10px 25px;
+            background: none;
+            border: 1px solid white;
+            color: white;
+        }
